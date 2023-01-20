@@ -6,4 +6,20 @@ tags:
 
 ---
 
+New Features:
+
+* Searching within lists now happens locally and is much more responsive.
+* Some under-the-hood performance improvements.
+* Some minor visual polish.
+
+Bugs fixed:
+
+* Previously if you didn't have a local copy of a project we'd complain about a name mismatch. That bug is fixed.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
 
