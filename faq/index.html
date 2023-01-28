@@ -41,7 +41,7 @@
             <a href="/">
             <img src="/images/syncbot.jpg" class="h-24 w-24 rounded-full" alt="" />
             </a>
-            <h1 class="text-xl font-semibold text-gray-800 dark:text-white mt-4">Syncbot Docs</h1>
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white mt-4">Seshy Docs</h1>
 
             <div class="mt-4 space-y-4 lg:mt-8">
               <a href="/how-it-works/" class="block text-gray-500 dark:text-gray-300 hover:underline">How It Works</a>
@@ -74,35 +74,35 @@
               <div class="prose prose-emerald dark:prose-invert">
     <h1 id="faq">FAQ</h1>
 
-<h2 id="can-i-use-symlinks-instead-of-putting-projects-directly-in-syncbot">Can I use symlinks instead of putting projects directly in <code>~Syncbot</code>?</h2>
+<h2 id="can-i-use-symlinks-instead-of-putting-projects-directly-in-seshy">Can I use symlinks instead of putting projects directly in <code>~Seshy</code>?</h2>
 
 <p>Well… kinda?</p>
 
-<p>If Syncbot is running when you create a symlink it should notice the new project
+<p>If Seshy is running when you create a symlink it should notice the new project
 and the project should be uploaded.</p>
 
 <p><strong>However</strong> the process that watches for changes in the
-<code>~/Syncbot</code> directory won't be able to "see" any changes in the project. That means
-that <strong>if you save a change to the project Syncbot won't automatically upload it for you.</strong>
-If you quit and then restart Syncbot it should see the changes on the initial scan
-and then upload the new version at that time. You'll need to restart Syncbot each time
+<code>~/Seshy</code> directory won't be able to "see" any changes in the project. That means
+that <strong>if you save a change to the project Seshy won't automatically upload it for you.</strong>
+If you quit and then restart Seshy it should see the changes on the initial scan
+and then upload the new version at that time. You'll need to restart Seshy each time
 that you've made a change you want to upload.</p>
 
-<p><strong>For best results I recommend putting projects directly in the <code>~/Syncbot</code> folder,
+<p><strong>For best results I recommend putting projects directly in the <code>~/Seshy</code> folder,
 or in one of its sub-folders.</strong></p>
 
-<p>In the future there <em>might</em> be a configuration option to let you tell Syncbot to
+<p>In the future there <em>might</em> be a configuration option to let you tell Seshy to
 watch other folders.</p>
 
-<h2 id="will-syncbot-mess-up-my-sessions">Will Syncbot mess up my sessions?</h2>
+<h2 id="will-seshy-mess-up-my-sessions">Will Seshy mess up my sessions?</h2>
 
 <p><em>I certainly hope not!</em></p>
 
-<p>But, with that being said, you should be aware that that <strong>Syncbot is alpha level software</strong>. For
+<p>But, with that being said, you should be aware that that <strong>Seshy is alpha level software</strong>. For
 now I'd recommend being cautious, and if you have sessions that you really care about, please
-keep a copy of them outside of Syncbot.</p>
+keep a copy of them outside of Seshy.</p>
 
-<p>In most cases Syncbot won't do things that would mess up a session.</p>
+<p>In most cases Seshy won't do things that would mess up a session.</p>
 
 <p>But some actions are riskier than others. In specific, any time you download a project (or an
 older version), there is a chance for something to go sideways since we're directly messing
@@ -113,8 +113,8 @@ with files inside the session.</p>
 <p>Non-risky activities:</p>
 
 <ul>
-  <li>If you're using Syncbot on your own, to back up your sessions, and you're not
-going back to older versions then there is very little risk that Syncbot could
+  <li>If you're using Seshy on your own, to back up your sessions, and you're not
+going back to older versions then there is very little risk that Seshy could
 mess up your sessions.</li>
 </ul>
 
