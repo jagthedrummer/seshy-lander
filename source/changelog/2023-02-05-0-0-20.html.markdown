@@ -1,7 +1,7 @@
 ---
 
 title: 0.0.20
-date: 2023-01-31 01:46 UTC
+date: 2023-02-05 01:46 UTC
 tags: 
 
 ---
@@ -10,6 +10,8 @@ New Features:
 
 * Changed from Syncbot to Seshy.
 * Added a Dashboard that shows all projects across all teams.
+* Polished the appearance of the upload/download status details.
+* Some under-the-hood cleanup and polish.
 
 Bugs fixed:
 
