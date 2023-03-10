@@ -10,7 +10,7 @@ layout: markdown
 ## Seshy is a Desktop application for MacOS
 
 Seshy is primarily a desktop application.
-For now you'll need to use the [web site](https://app.syncbot.media/) to create new teams and to invite people to your teams.
+For now you'll need to use the [web site](https://app.seshy.me/) to create new teams and to invite people to your teams.
 But for working with project and collaborating with other people you'll primarily use the app.
 
 Seshy supports Logic Pro X and Ableton Live sessions.
