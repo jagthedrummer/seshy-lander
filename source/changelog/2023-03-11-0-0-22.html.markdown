@@ -1,0 +1,26 @@
+---
+
+title: 0.0.22
+date: 2023-03-11 16:44 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a problem that was breaking signing in to the desktop app for the first time for
+  newly registered users.
+* Fixed a bug where the "Open your Seshy folder" button on the dashboard wouldn't work
+  until you had visited the team listing screen.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
