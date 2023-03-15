@@ -1,0 +1,30 @@
+---
+
+title: 0.0.23
+date: 2023-03-15 19:42 UTC
+tags: 
+
+---
+
+New Features:
+
+* Addes a new "Settings" screen (under the user menu in the top right) that allows you
+  to configure what folder we use as your primary upload/download directory, and allows
+  you to add additional folders to watch for new projects.
+* The local project data cache is now stored in the normal system `userData` directory
+  (usually ~/Library/Application Support/Seshy). Previously it was stored in a hidden
+  directory inside `~/Seshy`. The app will take care of moving the old cache to the new spot.
+* Seshy will now remember the size and position of the window and will restore them after a restart.
+
+Bugs fixed:
+
+* Fixed a bug where two projects in different directories with the same name would clobber each other.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
+
