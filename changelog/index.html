@@ -80,6 +80,49 @@
     <div class="flex items-center focus:outline-none">
       <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
 
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.23</h1>
+      <h2><time>Mar 15 2023</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose">
+          <p>New Features:</p>
+
+<ul>
+  <li>Addes a new "Settings" screen (under the user menu in the top right) that allows you
+to configure what folder we use as your primary upload/download directory, and allows
+you to add additional folders to watch for new projects.</li>
+  <li>The local project data cache is now stored in the normal system <code>userData</code> directory
+(usually ~/Library/Application Support/Seshy). Previously it was stored in a hidden
+directory inside <code>~/Seshy</code>. The app will take care of moving the old cache to the new spot.</li>
+  <li>Seshy will now remember the size and position of the window and will restore them after a restart.</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>Fixed a bug where two projects in different directories with the same name would clobber each other.</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
       <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.22</h1>
       <h2><time>Mar 11 2023</time></h2>
     </div>
