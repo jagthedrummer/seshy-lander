@@ -106,5 +106,21 @@ hovering over the user icon with the speech bubble.
         </div>
       </div>
     </section>
+
+
+    <script src="https://app.bentonow.com/b24b2beffbad57c81eb82ec969d86517.js" defer async></script>
+<script>
+window.addEventListener("bento:ready", function () {
+  if (typeof(bento$) != 'undefined') {
+    bento$(function() {
+        bento.showChat();
+        // bento.updateFields({"name": "User 1"});
+        // bento.identify("example@example.com");
+        bento.view();
+    });
+  }
+})
+</script>
+
   </body>
 </html>
