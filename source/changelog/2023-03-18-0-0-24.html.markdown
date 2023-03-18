@@ -1,0 +1,22 @@
+---
+
+title: 0.0.24
+date: 2023-03-18 02:48 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a bug where every save of an Ableton project would create a new project in Seshy.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
