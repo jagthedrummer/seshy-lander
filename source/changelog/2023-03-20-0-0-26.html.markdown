@@ -1,0 +1,24 @@
+---
+
+title: 0.0.26
+date: 2023-03-20 03:52 UTC
+tags: 
+
+---
+
+New Features:
+
+* Added the ability to delete projects from the server.
+* Added a screen to let you see if any of your local projects have been orphaned
+  by the project owner deleting the project from the server.
+
+Bugs fixed:
+
+* Fixed some funkiness in the display of new projects during the initial upload.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
