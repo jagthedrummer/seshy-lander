@@ -1,0 +1,22 @@
+---
+
+title: 0.0.28
+date: 2023-03-24 20:14 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a bug with project icons. 😬
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
