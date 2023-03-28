@@ -1,0 +1,23 @@
+---
+
+title: 0.0.29
+date: 2023-03-28 18:51 UTC
+tags: 
+
+---
+
+New Features:
+
+* Bitwig Studio is now supported.
+* A new seciton of the Settings screen allows you to control the number of simultaneous uploads and downloads.
+
+Bugs fixed:
+
+* None
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
