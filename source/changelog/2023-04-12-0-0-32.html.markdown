@@ -6,4 +6,21 @@ tags:
 
 ---
 
+New Features:
+
+* First beta builds for Windows.
+
+Bugs fixed:
+
+* Previously the entire app was draggable, and any click and drag anywhere in the app would
+  move the app window. This meant that you couldn't select any text anywhere in the app.
+  Now only the top bar is draggable.
+* Fixed a visual bug for projects that have been renamed in the cloud.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
 
