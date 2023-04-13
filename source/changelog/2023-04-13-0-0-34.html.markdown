@@ -1,0 +1,23 @@
+---
+
+title: 0.0.34
+date: 2023-04-13 18:44 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a dark mode bug on the settings screen.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
