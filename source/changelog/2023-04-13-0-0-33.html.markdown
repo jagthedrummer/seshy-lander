@@ -1,0 +1,24 @@
+---
+
+title: 0.0.33
+date: 2023-04-13 17:54 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a bug that was preventing sign in on Windows.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
+
