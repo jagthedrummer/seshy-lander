@@ -6,4 +6,18 @@ tags:
 
 ---
 
+New Features:
+
+* Added a means to capture information when errors occur to help with troubleshooting. (This
+  change should be invisible to you.)
+
+Bugs fixed:
+
+* Fixed a dark mode bug on the settings screen.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
 

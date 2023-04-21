@@ -1,0 +1,25 @@
+---
+
+title: 0.0.37
+date: 2023-04-21 18:00 UTC
+tags: 
+
+---
+
+New Features:
+
+* Added a link to a place to request features & report bugs.
+
+Bugs fixed:
+
+* Fixed a few typos on the settings screen.
+* Fixed some capitalization weirdness.
+* Fixed a bug that was preventing the link the comment bubble from working.
+* Polished up the UI around renaming projects.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
