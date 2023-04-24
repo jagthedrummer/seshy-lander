@@ -1,0 +1,24 @@
+---
+
+title: 0.0.38
+date: 2023-04-24 16:42 UTC
+tags: 
+
+---
+
+New Features:
+
+* Added a button on the settings page to allow you to upload a debug report. This is useful
+  when you run into trouble and I need to get a lot of detail about how your system is configured
+  and what Seshy thinks is happening.
+
+Bugs fixed:
+
+* None
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
