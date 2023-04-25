@@ -1,0 +1,25 @@
+---
+
+title: 0.0.39
+date: 2023-04-25 18:11 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a nasty bug that was causing some people to have duplicate projects. 😬
+* Fixed the refresh button on the dashboard. It works now.
+* Fixed a tiny invisible bug related to submitting debug reports.
+
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
