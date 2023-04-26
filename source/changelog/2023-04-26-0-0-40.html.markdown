@@ -1,0 +1,23 @@
+---
+
+title: 0.0.40
+date: 2023-04-26 18:40 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a weird edge case where sometimes moving a project locally would result in a duplicate in the cloud.
+
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
