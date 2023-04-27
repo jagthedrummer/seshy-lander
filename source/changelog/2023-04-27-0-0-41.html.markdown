@@ -1,0 +1,24 @@
+---
+
+title: 0.0.41
+date: 2023-04-27 19:07 UTC
+tags: 
+
+---
+
+New Features:
+
+* It's now easier to delete projects. Instead of having to type the whole project name,
+  which can be cumbersome, you just have to type "delete forever".
+
+Bugs fixed:
+
+* Some polish around the process of removing folders from the "additional folders" list under Settings.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
