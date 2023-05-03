@@ -27,21 +27,6 @@ Then you can drop a session into that folder (or create a new session and save i
 and then Seshy will automatically upload that project into your "Personal" team.
 Which leads us to...
 
-## Seshy is team-based
-
-Seshy is all about collaborating with others, and the way to do that is with a team.
-
-We also know that you might want to work on some stuff by yourself,
-and that's why you get a "Personal" team that's just for you.
-
-Whenever you add a project to your <code>Seshy</code> folder it will first go into your "Personal" team.
-Each time you save the session Seshy will automatically upload your changes.
-
-When you're ready to share the project with a collaborator you can use the web site to create a new team.
-Once you've done that you can invite anyone to participate on that team.
-Any projects you share with the team will be available to anyone who's on the team.
-
-To share a project with a team you can click on the project in the desktop app, then go to the "Teams" tab.
-There you'll see a list of all your teams and you'll have the option to share the project with any of them.
+[Seshy is all about team-based collaboration. Read more about it on the teams page.](/teams/)
 
 
