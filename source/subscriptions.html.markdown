@@ -67,7 +67,7 @@ How you handle your subscription depends a lot on how you organize and manage yo
 If there's a clear "band leader" type then _maybe_ the subscription is on their Personal
 team and they extend the subscription to the band. (A lot like the Solo Artist & Side Project scenario.)
 
-For more... democratic band arrangements you might want to have the subscription be owned
+For more... democratic (or professional!) band arrangements you might want to have the subscription be owned
 by the band team. Then several people in the band can be Billing Admins and will be able
 to manage the subscription.
 
