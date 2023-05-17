@@ -1,0 +1,24 @@
+---
+
+title: 0.0.43
+date: 2023-05-17 01:17 UTC
+tags: 
+
+---
+
+New Features:
+
+* Added some messaging to indicate when a new project version can't be uploaded due to permissions.
+
+Bugs fixed:
+
+* None
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
+
+
