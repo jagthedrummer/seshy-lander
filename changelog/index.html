@@ -81,6 +81,52 @@
     <div class="flex items-center focus:outline-none">
       <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
 
+      <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.45</h1>
+      <h2><time>May 27 2023</time></h2>
+    </div>
+
+    <div class="flex mt-4 md:mx-10">
+      <span class="border border-emerald-500"></span>
+
+      <div class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+        <div class="prose dark:prose-invert">
+          <p>New Features:</p>
+
+<ul>
+  <li>None</li>
+</ul>
+
+<p>Bugs fixed:</p>
+
+<ul>
+  <li>Sometimes you could get into a weird state where the server thought you were signed
+out but the desktop app thought you should be signed in. When that happened there was
+no obvious indication that anything was wrong, but some things would just seem to stop
+working until you restarted Seshy. Now you should be prompted to sign in if it gets into
+that weird state.</li>
+  <li>Previously Seshy would choke if you pointed it at a <em>very</em> large directory full of many
+projects. It would try to make sense of the entire directory all at once and that could
+cause things to get very sluggish, and if the directory was large enough could start causing
+problems for other programs due to Seshy opening too many files at once. Now Seshy will
+only try to read a few files at a time so that it doesn't overwhelm the system.</li>
+</ul>
+
+<p>Known Issues:</p>
+
+<ul>
+  <li>Need better handling around upload failures and retries.</li>
+  <li>Need better handling around download failures and retries.</li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mb-8">
+    <div class="flex items-center focus:outline-none">
+      <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
       <h1 class="mx-4 text-xl text-gray-700 dark:text-white">0.0.44</h1>
       <h2><time>May 17 2023</time></h2>
     </div>
