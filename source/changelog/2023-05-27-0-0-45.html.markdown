@@ -1,0 +1,31 @@
+---
+
+title: 0.0.45
+date: 2023-05-27 17:35 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Sometimes you could get into a weird state where the server thought you were signed
+  out but the desktop app thought you should be signed in. When that happened there was
+  no obvious indication that anything was wrong, but some things would just seem to stop
+  working until you restarted Seshy. Now you should be prompted to sign in if it gets into
+  that weird state.
+* Previously Seshy would choke if you pointed it at a _very_ large directory full of many
+  projects. It would try to make sense of the entire directory all at once and that could
+  cause things to get very sluggish, and if the directory was large enough could start causing
+  problems for other programs due to Seshy opening too many files at once. Now Seshy will
+  only try to read a few files at a time so that it doesn't overwhelm the system.
+
+Known Issues:
+
+* Need better handling around upload failures and retries.
+* Need better handling around download failures and retries.
+
+
