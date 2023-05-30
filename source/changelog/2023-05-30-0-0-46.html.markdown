@@ -1,0 +1,23 @@
+---
+
+title: 0.0.46
+date: 2023-05-30 20:13 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a bug where Seshy would get confused if you started to delete a project, and then removed it
+  from your filesystem outside of Seshy.
+* Fixed a bug where Seshy would get confused if a file that it thought it needed to upload disappeared during a sync.
+* Previously Seshy would sometimes automatically create a new 0 byte version of a project after you click "download".
+  That shouldn't happen anymore.
+* Better handling around download failures.
+* On Windows some DAWs seem to keep files open and locked, which means that Seshy can't upload them. Previously this
+  would fail silently and it would look like everything had uploaded. Now Seshy will mark the project with an error
+  and will advise you to close your DAW and then click the "retry upload" button.
