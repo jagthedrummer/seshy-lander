@@ -1,0 +1,25 @@
+---
+
+title: 0.0.47
+date: 2023-06-03 15:37 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Better handling around upload failures and retries.
+* Better support for downloading onto external drives.
+* Better support for watched folders on external drives. Previously Seshy would lose track of
+  projects on an external drive if you ever started Seshy with the drive detached.
+  Then when you reattached the drive Seshy would see the projects agains but would
+  think that they were new. Now Seshy will remember the projects and will give you
+  an indicator that the local copy is missing. If you reattach the drive Seshy will
+  then find the project again and remove the indicator. If your local copy is gone
+  for good you can disconnect Seshy from you local copy and then download a new version.
+* Fixed a bug related to keeping track of local state when a project is deleted.
+
