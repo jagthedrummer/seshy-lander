@@ -29,6 +29,17 @@ will count towards the storage quota of that Subscription.
 
 Here are a few examples to help illustrate how it works.
 
+### Contributor
+
+If a friend or band mate invites you to contribute to one of their projects it won't cost you anything.
+
+You can download any projects that they share with you, and any changes you make will be automatically shared with them.
+
+If you start a new project you can request to transfer it to your friend or band mate. If they accept the project then it will count towards their storage quota.
+
+The Contributor plan comes with enough storage that you should be able to have at least a couple of works-in-progress that haven't been handed off yet.
+
+
 ### Solo Artist
 
 This is the simplest scenario, and it's pretty easy. You'd start a subscription
