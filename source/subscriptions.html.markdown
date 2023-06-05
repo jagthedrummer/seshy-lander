@@ -20,7 +20,7 @@ A higher level subscription plan will allow you and your team(s) to store an eve
 
 Each Subscription is owned by a single Team. Billing Admins for that Team can manage that Subscription.
 
-A single Subscription can be extended to cover multiple Teams.
+A single Subscription can be extended to cover multiple Teams via Umbrella Subscriptions.
 
 All Projects that are owned by Teams that are covered by a Subscription
 will count towards the storage quota of that Subscription.
@@ -50,13 +50,15 @@ and new changes will not be saved by Seshy.
 ### Solo Artist & Side Projects
 
 If you're primarily a solo artist, but you also have some side bands then the subscription
-scenario doesn't change that much.
+scenario doesn't change all that much.
 
-You'd subscribe to Seshy under your Personal team and then extend the subscription to
-the teams for your side projects. Any projects owned by your side teams would count towards
-your subscription.
+You'd subscribe to the Seshy "Band" plan under your Personal team and then extend the subscription to
+the teams for your side projects. Any projects owned by your side teams would count towards your subscription.
 
 ![Solo with Side Projects](subscriptions/solo_w_side.png)
+
+If collaborators in one of your side bands starts a new project they could choose to transfer it to the band team
+and then it would count towards your Storage Pool.
 
 ### Bands
 
@@ -86,4 +88,6 @@ Then you'd extend that subscription to teams that you want to cover under your s
 
 ## Do you have questions, or want some help?
 
-### TODO: Put a contact form here
+<p>
+<a href="mailto:jeremy@seshy.me?subject=Seshy Question About Subscriptions" target="_blank">Please contact me by email and I'll respond as soon as I can.</a>
+</p>

@@ -6,7 +6,7 @@ title: Seshy Pricing
   Note: This page is a work in progress. The prices below are subject to change before launch.
 </div>
 
-<div class="flex items-center justify-center border-b mb-8 pb-8">
+<div class="flex items-center nojustify-center border-b mb-8 pb-8">
   <div class="prose dark:prose-invert flex-1 pb-8 ">
 
     <h1>Seshy Pricing</h1>
@@ -14,89 +14,117 @@ title: Seshy Pricing
     <p>Seshy is a tool for both collaboration and storage of DAW sessions.</p>
     <p>It's always free to collaborate on projects.</p>
     <p>You only pay for storage of projects that you own.</p>
-    <p>You can collaborate with others by creating teams and sharing projects with them.</p>
-    <p>Teams are free, and you can have as many as you need.</p>
+    <p>You can collaborate with others by creating <a href="/teams/">teams</a> and sharing projects with them.</p>
+    <p>Teams are free, and you can have as many as you need. (Within reason. This is a collaboration tool, not a file distribution platform.)</p>
     <p>It doesn't cost you anything to contribute to projects that are owned by others.</p>
   </div>
 </div>
 
+<div class="flex items-center nojustify-center border-b mb-8 pb-8">
+  <div class="prose dark:prose-invert flex-1 pb-8 ">
+    <h2>Benefits</h2>
 
-<div class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-8 mx-auto border-b mb-8">
-        <p class="text-xl text-center text-gray-500 dark:text-gray-300">
-            Choose your plan
-        </p>
+    <h3>Collaboration</h3>
 
-        <div class="mt-6 space-y-8 xl:mt-12">
+    <p>
+      Seshy handles all the messy details about transporting comples DAW sessions from one computer to another.
+    </p>
+    <p>
+      Teams make it effortless for you to work with repeat collaborators and it's easy to invite new ones.
+    </p>
 
-          <%= partial 'pricing/bubble', locals: { name: "Contributor", size: "1 GB", price: "$0" } %>
-          <%= partial 'pricing/bubble', locals: { name: "Solo Artist", size: "50 GB", price: "$8" } %>
-          <%= partial 'pricing/bubble', locals: { name: "Band",        size: "200 GB", price: "$24" } %>
-          <%= partial 'pricing/bubble', locals: { name: "Producer",    size: "1,000 GB", price: "$74" } %>
-          <%= partial 'pricing/bubble', locals: { name: "Studio",      size: "5,000 GB+", price: "Contact me" } %>
+    <h3>Backup</h3>
 
-          <!--
-          <div class="flex justify-center">
-            <button class="px-8 py-2 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-              Choose Plan
-            </button>
-          </div>
-          -->
-        </div>
+    <p>Every change you make to a session is automatically backed up to the cloud as long as you hav Seshy running.</p>
 
+    <h3>Archiving</h3>
 
-        <p class="mt-16 text-xl text-center text-gray-500 dark:text-gray-300">
-          Don't see a plan that looks right for you?
-        </p>
-
-        <p class="mt-8 text-xl text-center text-gray-500 dark:text-gray-300">
-          Contact me and we'll work out something that will meet your needs.
-        </p>
-    </div>
+    <p>Store every version of your projects, so that if you decide that you've taken a wrong turn, it's easy to go back to a previous version.</p>
+  </div>
 </div>
 
-<div class="flex items-center justify-center border-b mb-8 pb-8">
+<div class="flex items-center nojustify-center border-b mb-8 pb-8">
   <div class="prose dark:prose-invert flex-1 pb-8 ">
-    <h1>Benefits</h1>
 
-    <h2>Collaboration</h2>
+    <h2>What do subscriptions include?</h2>
 
-    <h2>Archiving</h2>
+    <p>Each plan comes with a <b>Storage Pool</b> and some number of <b>Umbrella Subscriptions</b></p>
+    <ul>
+      <li>The <b>Storage Pool</b> is the maximum amount of project data that your team can own.</li>
+      <li><b>Umbrella Subsacriptions</b> allow you to extend your <b>Storage Pool</b> to cover projects owned by additional teams.</li>
+    </ul>
+    <p>All paid plans allow for <b>Unlimited Projects</b>, <b>Unlimited Teams</b>, and <b>Unlimited Collaborators</b>.</p>
+    <p>
+      <a href="/subscriptions/">Learn more about how subscriptions work.</a>
+    </p>
+  </div>
+
+</div>
+
+<div class="noflex noitems-center nojustify-center border-b mb-8 pb-8">
+<%= partial 'pricing/table' %>
+<div class="flex itemx-center justify-center">
+<a
+    href="https://app.seshy.me/users/sign_up"
+    id="navAction"
+    class="bg-emerald-600 text-white hover:bg-emerald-700 p-4 rounded"
+    >
+    Sign Up Today To Get Started
+</a>
+</div>
+</div>
+
+<div class="flex items-center nojustify-center border-b mb-8 pb-8">
+  <div class="prose dark:prose-invert flex-1 pb-8 ">
+    <h2>Don't see a plan that works for you?</h2>
+    <p>If you're looking for something different, I'd love to hear from you. I'm sure we can work something out.</p>
+
+    <p>
+      <a href="mailto:jeremy@seshy.me?subject=Custom Seshy Pricing" target="_blank">Please contact me by email and let me know what you're looking for.</a>
+    </p>
 
   </div>
 </div>
 
 
-<div class="flex items-center justify-center border-b mb-8 pb-8">
-  <div class="prose dark:prose-invert flex-1 pb-8 ">
-    <h1>Example Scenarios</h1>
 
-    <h2>Contributor</h2>
+
+
+
+<div class="flex items-center nojustify-center border-b mb-8 pb-8">
+  <div class="prose dark:prose-invert flex-1 pb-8 ">
+    <!--
+    <h2>Example Scenarios</h2>
+
+    <h3>Contributor</h3>
     <p>If a friend or band mate invites you to contribute to one of their projects it won't cost you anything.</p>
     <p>You can download any projects that they share with you, and any changes you make will be automatically shared with them.</p>
     <p>If you start a new project you can request to transfer it to your friend or band mate. If they accept the project then it will count towards their storage quota.</p>
     <p>The Contributor plan comes with enough storage that you should be able to have at least a couple of works-in-progress that haven't been handed off yet.</p>
 
-    <h2>Solo Artist</h2>
+    <h3>Solo Artist</h3>
     <p>As a solo artist you might be using Seshy primarily as a backup and archiving tool.</p>
     <p>But you might want to work with some collaborators every now and then.</p>
     <p>When you want to work with someone else, like a guest musician or a mix/master engineer, then you can create a team, invite them to the team, and then share projects with them.</p>
     <p>When your collaborators make any changes to the sessions you've shared with them those changes will be automatically uploaded to Seshy.</p>
 
-    <h2>Band</h2>
+    <h3>Band</h3>
     <p>A band might use Seshy for a mix of collaboration and archiving.</p>
     <p>You'd have one team that represents your core band. Any time someone starts a new project they can transfer ownership to the band team.</p>
     <p>Then you might have another team that's the core band plus your mix/master engineer.</p>
     <p>If you wanted to bring in a guest musician for just a track or two, you can create another team for that.</p>
 
-    <h2>Producer</h2>
+    <h3>Producer</h3>
     <p>A producer might use Seshy for both collaboration and archiving.</p>
     <p>You'd have teams for each artist that you're working with, or for each combination of artists who are all working together.</p>
+    -->
 
-    <h2>Studio</h2>
-    <p>If you need more than 1 TB of storage then I'd love to hear from you.</p>
+    <h2>Studios - Contact Me</h2>
+    <p>If you're with a studio or need more than 2 TB of storage then I'd love to hear from you.</p>
     <p>I'd like to learn more about your needs and would be happy to tailor a plan specifically for you.</p>
-
+    <p>
+      <a href="mailto:jeremy@seshy.me?subject=Seshy Pricing For Studios" target="_blank">Please contact me by email we'll craft a plan that's specific to your needs.</a>
+    </p>
   </div>
 </div>
 

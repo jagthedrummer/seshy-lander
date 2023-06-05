@@ -1,0 +1,33 @@
+<div class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-8 mx-auto border-b mb-8">
+        <p class="text-xl text-center text-gray-500 dark:text-gray-300">
+            Choose your plan
+        </p>
+
+        <div class="mt-6 space-y-8 xl:mt-12">
+
+          <%= partial 'pricing/bubble', locals: { name: "Contributor", size: "1 GB", price: "$0" } %>
+          <%= partial 'pricing/bubble', locals: { name: "Solo Artist", size: "50 GB", price: "$8" } %>
+          <%= partial 'pricing/bubble', locals: { name: "Band",        size: "200 GB", price: "$24" } %>
+          <%= partial 'pricing/bubble', locals: { name: "Producer",    size: "1,000 GB", price: "$74" } %>
+          <%= partial 'pricing/bubble', locals: { name: "Studio",      size: "5,000 GB+", price: "Contact me" } %>
+
+          <!--
+          <div class="flex justify-center">
+            <button class="px-8 py-2 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+              Choose Plan
+            </button>
+          </div>
+          -->
+        </div>
+
+
+        <p class="mt-16 text-xl text-center text-gray-500 dark:text-gray-300">
+          Don't see a plan that looks right for you?
+        </p>
+
+        <p class="mt-8 text-xl text-center text-gray-500 dark:text-gray-300">
+          Contact me and we'll work out something that will meet your needs.
+        </p>
+    </div>
+</div>
