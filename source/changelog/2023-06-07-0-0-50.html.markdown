@@ -1,0 +1,25 @@
+---
+
+title: 0.0.50
+date: 2023-06-07 18:40 UTC
+tags: 
+
+---
+
+New Features:
+
+* Completely rewritten project watching service. Previously if you pointed
+  Seshy at a folder that was very big and deep (like hundreds of thousands
+  of files) then it would really struggle to make sense of it. And if the
+  folder was big enough it would eventually just crash Seshy. Now the watching
+  process happens in the background, and is much more selective and respectful
+  of system resources. This means that when you point Seshy at a very large
+  directory it should now stay responsive instead of getting sluggish or locking
+  up. And it should be able to deal with all the projects it finds there instead
+  of crashing.
+
+Bugs fixed:
+
+* Fixed a small bug around deleting local projects from within Seshy.
+
+
