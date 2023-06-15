@@ -1,0 +1,20 @@
+---
+
+title: 0.0.51
+date: 2023-06-15 20:04 UTC
+tags: 
+
+---
+
+New Features:
+
+* Some concurrency protection to make sure that only one process at a time can update the project data file.
+* Keep a backup of the project data file when we write a new one.
+* It's now possible to delete a cloud project even if you still have a local copy. This is handy if you've been bitten by one of the project duplication bugs.
+
+Bugs fixed:
+
+* Better error handling and retries when we encounter a random network error when uploading files.
+* Handle the case edge case where you try to download a project that doesn't have any versions yet.
+* Better error handling and messaging if we can't save a comment on a version.
+
