@@ -6,62 +6,87 @@ title: Seshy Pricing
   Note: This page is a work in progress. The prices below are subject to change before launch.
 </div>
 
-<div class="flex items-center nojustify-center border-b mb-8 pb-8">
-  <div class="prose dark:prose-invert flex-1 pb-8 ">
-
-    <h1>Seshy Pricing</h1>
-
+<div class="flex items-center justify-center noborder-b mb-8 nopb-8">
+  <div class="prose dark:prose-invert flex-1 pb-8 noborder rounded-xl">
+    <h1 class="text-center">Seshy Pricing</h1>
     <p>Seshy is a tool for both collaboration and storage of DAW sessions.</p>
     <p>It's always free to collaborate on projects.</p>
-    <p>You only pay for storage of projects that you own.</p>
+    <p>You only <b>pay for</b> storage of <b>projects you own</b>.</p>
     <p>You can collaborate with others by creating <a href="/teams/">teams</a> and sharing projects with them.</p>
     <p>Teams are free, and you can have as many as you need. (Within reason. This is a collaboration tool, not a file distribution platform.)</p>
-    <p>It doesn't cost you anything to contribute to projects that are owned by others.</p>
+    <p>It <b>doesn't cost you anything</b> to contribute to projects that are <b>owned by others</b>.</p>
   </div>
 </div>
 
-<div class="flex items-center nojustify-center border-b mb-8 pb-8">
-  <div class="prose dark:prose-invert flex-1 pb-8 ">
-    <h2>Benefits</h2>
-
-    <h3>Collaboration</h3>
-
-    <p>
-      Seshy handles all the messy details about transporting complex DAW sessions from one computer to another.
-    </p>
-    <p>
-      Teams make it effortless for you to work with repeat collaborators and it's easy to invite new ones.
-    </p>
-
-    <h3>Backup</h3>
-
-    <p>Every change you make to a session is automatically backed up to the cloud as long as you have Seshy running.</p>
-
-    <h3>Archiving</h3>
-
-    <p>Store every version of your projects, so that if you decide that you've taken a wrong turn, it's easy to go back to a previous version.</p>
+<div class="flex items-center justify-center noborder-b mb-2 nopb-8">
+  <div class="prose dark:prose-invert flex-1 pb-2">
+    <h2 class="text-center">Benefits</h2>
   </div>
 </div>
 
-<div class="flex items-center nojustify-center border-b mb-8 pb-8">
-  <div class="prose dark:prose-invert flex-1 pb-8 ">
 
-    <h2>What do subscriptions include?</h2>
 
-    <p>Each plan comes with a <b>Storage Pool</b> and some number of <b>Umbrella Subscriptions</b></p>
-    <ul>
-      <li>The <b>Storage Pool</b> is the maximum amount of project data that your team can own.</li>
-      <li><b>Umbrella Subsacriptions</b> allow you to extend your <b>Storage Pool</b> to cover projects owned by additional teams.</li>
-    </ul>
+<div class="items-center justify-center noborder-b mb-8 nopb-8">
+  <div class="pb-8 md:flex">
+    <div class="prose dark:prose-invert border p-4 m-4 rounded-xl flex-1 nodrop-shadow-md">
+      <h3>Collaboration</h3>
+      <p>Seshy handles all the messy details about efficiently transporting complex DAW sessions from one computer to another.</p>
+      <p>Teams make it effortless for you to work with repeat collaborators and it's easy to invite new ones.</p>
+    </div>
+
+    <div class="prose dark:prose-invert border p-4 m-4 rounded-xl flex-1 nodrop-shadow-md">
+      <h3>Backup</h3>
+      <p>Every change you make to a session is automatically backed up to the cloud as long as you have Seshy running.</p>
+      <p>If anything happens to your studio computer you'll be able to recover all of your projects from the cloud.</p>
+    </div>
+
+    <div class="prose dark:prose-invert border p-4 m-4 rounded-xl flex-1 nodrop-shadow-md">
+      <h3>Archiving</h3>
+      <p>Store every version of your projects, so that if you decide that you've taken a wrong turn, it's easy to go back to a previous version.</p>
+      <p>Make any change you want without fear of making an irreversible mistake.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flex items-center justify-center noborder-b mb-8 nopb-8">
+  <div class="prose dark:prose-invert flex-1 pb-8 noborder rounded-xl p-4">
+    <h2 class="text-center">What do subscriptions include?</h2>
+    <p>Each plan comes with a <b>Storage Pool</b> to cover projects that you own and some number of <b>Umbrella Subscriptions</b> to allow you to extend your storage pool to additional teams.</p>
     <p>All paid plans allow for <b>Unlimited Projects</b>, <b>Unlimited Teams</b>, and <b>Unlimited Collaborators</b>.</p>
     <p>
       <a href="/subscriptions/">Learn more about how subscriptions work.</a>
     </p>
   </div>
-
 </div>
 
-<div class="noflex noitems-center nojustify-center border-b mb-8 pb-8">
+
+
+
+<div class="flex items-center justify-center noborder-b nomb-8 pb-4">
+  <div class="flex-1 pb-8 ">
+
+    <div class="md:flex">
+      <div class="prose dark:prose-invert border p-4 m-4 rounded-xl flex-1 nodrop-shadow-md">
+        <h3>Storage Pool</h3>
+        <p>The <b>Storage Pool</b> is the maximum amount of project data that your team can own. Collaborating on projects owned by others is free.</p>
+        <img src="/images/subscriptions/solo.png" alt="Storage Pool" class="drop-shadow-none"/>
+      </div>
+      <div class="prose dark:prose-invert border p-4 m-4 rounded-xl flex-1 nodrop-shadow-md">
+        <h3>Umbrella Subscriptions</h3>
+        <p><b>Umbrella Subsacriptions</b> allow you to extend your <b>Storage Pool</b> to cover projects owned by additional teams.</p>
+        <img src="/images/subscriptions/solo_w_side.png" alt="Umbrella Subscriptions" class="drop-shadow-none"/>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="flex items-center justify-center border-b mb-8 pb-8">
+  
+</div>
+
+<div class="noflex noitems-center justify-center border-b mb-8 pb-8">
 <%= partial 'pricing/table' %>
 <div class="flex itemx-center justify-center">
 <a
@@ -74,7 +99,7 @@ title: Seshy Pricing
 </div>
 </div>
 
-<div class="flex items-center nojustify-center border-b mb-8 pb-8">
+<div class="flex items-center justify-center border-b mb-8 pb-8">
   <div class="prose dark:prose-invert flex-1 pb-8 ">
     <h2>Don't see a plan that works for you?</h2>
     <p>If you're looking for something different, I'd love to hear from you. I'm sure we can work something out.</p>
@@ -91,7 +116,7 @@ title: Seshy Pricing
 
 
 
-<div class="flex items-center nojustify-center border-b mb-8 pb-8">
+<div class="flex items-center justify-center border-b mb-8 pb-8">
   <div class="prose dark:prose-invert flex-1 pb-8 ">
     <!--
     <h2>Example Scenarios</h2>

@@ -90,6 +90,19 @@ for Reasons™. That works too. Or mix and match!)
 
 ![Band Subscription](subscriptions/band.png)
 
+### Producers
+
+If you're a producer and you're working with many different artist it can be convenient to use the same
+workflow with all of them, but some of the people you're working with might not be subscribed to Seshy.
+
+That's where Umberella Subscriptions come in. They alow you to extend your storage pool to cover additional
+teams, which means that you can get all of your artists to use Seshy without all of them needing to manage
+their own subscriptions.
+
+You can create a team for each artist that you work with, and then create an Umbrella Subscription to cover
+that team. Then any projects owned by that team will count towards your storage pool.
+
+
 ### Studios
 
 For a studio you'd probaby want to subscribe under a dedicated team just for your studio
