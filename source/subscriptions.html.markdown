@@ -29,7 +29,7 @@ will count towards the storage quota of that Subscription.
 
 Here are a few examples to help illustrate how it works.
 
-### Contributor
+### Collaborator
 
 If a friend or band mate invites you to contribute to one of their projects it won't cost you anything.
 
@@ -37,8 +37,7 @@ You can download any projects that they share with you, and any changes you make
 
 If you start a new project you can request to transfer it to your friend or band mate. If they accept the project then it will count towards their storage quota.
 
-The Contributor plan comes with enough storage that you should be able to have at least a couple of works-in-progress that haven't been handed off yet.
-
+The Collaborator plan comes with enough storage that you should be able to have at least a couple of works-in-progress that haven't been handed off yet.
 
 ### Solo Artist
 
@@ -58,6 +57,7 @@ at any time.
 If you cancel your subscription then your projects will no longer be available to download
 and new changes will not be saved by Seshy.
 
+<!--
 ### Solo Artist & Side Projects
 
 If you're primarily a solo artist, but you also have some side bands then the subscription
@@ -70,6 +70,7 @@ the teams for your side projects. Any projects owned by your side teams would co
 
 If collaborators in one of your side bands starts a new project they could choose to transfer it to the band team
 and then it would count towards your Storage Pool.
+-->
 
 ### Bands
 
@@ -77,10 +78,14 @@ Bands can be tricky. (And I don't mean just about subscriptions!)
 
 How you handle your subscription depends a lot on how you organize and manage your band.
 
-If there's a clear "band leader" type then _maybe_ the subscription is on their Personal
-team and they extend the subscription to the band. (A lot like the Solo Artist & Side Project scenario.)
+**Umbrella Subscriptions** allow you to pay for a single subscription, but to cover everyone in the band.
 
-For more... democratic (or professional!) band arrangements you might want to have the subscription be owned
+If there's a clear "band leader" type then _maybe_ the subscription is on their Personal
+team and they extend the subscription to the band. <!--(A lot like the Solo Artist & Side Project scenario.)-->
+
+![Band Subscription](subscriptions/band.png)
+
+For more... democratic (or professional!) band arrangements you might want to have the main subscription be owned
 by the band team. Then several people in the band can be Billing Admins and will be able
 to manage the subscription.
 
@@ -88,14 +93,13 @@ You can also extend the subscription to the Personal teams
 of any band members that you'd like. (Or maybe they want to have their own subscription
 for Reasons™. That works too. Or mix and match!)
 
-![Band Subscription](subscriptions/band.png)
 
 ### Producers
 
 If you're a producer and you're working with many different artist it can be convenient to use the same
 workflow with all of them, but some of the people you're working with might not be subscribed to Seshy.
 
-That's where Umberella Subscriptions come in. They alow you to extend your storage pool to cover additional
+That's where **Umberella Subscriptions** come in. They alow you to extend your storage pool to cover additional
 teams, which means that you can get all of your artists to use Seshy without all of them needing to manage
 their own subscriptions.
 
