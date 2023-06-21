@@ -48,7 +48,7 @@ project quota for your subscription.
 
 ![Solo](subscriptions/solo.png)
 
-If you want to bring in some collaborators you can start new team, invite them
+If you want to bring in some collaborators you can start a new team, invite them
 to join the team, and then share some of your projects with the team.
 
 As a Billing Admin for your Personal team you can upgrade or cancel your subscription
@@ -96,10 +96,10 @@ for Reasons™. That works too. Or mix and match!)
 
 ### Producers
 
-If you're a producer and you're working with many different artist it can be convenient to use the same
+If you're a producer and you're working with many different artists it can be convenient to use the same
 workflow with all of them, but some of the people you're working with might not be subscribed to Seshy.
 
-That's where **Umberella Subscriptions** come in. They alow you to extend your storage pool to cover additional
+That's where **Umbrella Subscriptions** come in. They allow you to extend your storage pool to cover additional
 teams, which means that you can get all of your artists to use Seshy without all of them needing to manage
 their own subscriptions.
 
