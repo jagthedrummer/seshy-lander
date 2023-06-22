@@ -12,15 +12,20 @@ layout: markdown
 
 # Subscriptions
 
-Subscriptions allow you to store a larger volume of projects in Seshy, and they allow you to
-have unlimited sized teams. (Within reason. This is a collaboration tool, not a file
+Subscriptions give you a larger **Storage Pool** which allows you to store more projects in Seshy.
+They also allow you to have have unlimited sized teams. (Within reason. This is a collaboration tool, not a file
 distribution service.)
 
 A higher level subscription plan will allow you and your team(s) to store an even larger volume of projects.
 
+![Storage Pools](subscriptions/storage_pools.png)
+
 Each Subscription is owned by a single Team. Billing Admins for that Team can manage that Subscription.
 
-A single Subscription can be extended to cover multiple Teams via Umbrella Subscriptions.
+The **Storage Pool** for a single Subscription can be extended to cover multiple Teams via **Umbrella Subscriptions**.
+
+
+![Umbrella Subscriptions](subscriptions/umbrella_subscriptions.png)
 
 All Projects that are owned by Teams that are covered by a Subscription
 will count towards the storage quota of that Subscription.
@@ -38,6 +43,11 @@ You can download any projects that they share with you, and any changes you make
 If you start a new project you can request to transfer it to your friend or band mate. If they accept the project then it will count towards their storage quota.
 
 The Collaborator plan comes with enough storage that you should be able to have at least a couple of works-in-progress that haven't been handed off yet.
+
+Or, if you're working on just one masterpiece, it's enough storage that you can make a lot of progress before filling up the free storage pool.
+
+![Collaborator](subscriptions/collaborator.png)
+
 
 ### Solo Artist
 
