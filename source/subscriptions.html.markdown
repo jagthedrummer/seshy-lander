@@ -59,7 +59,8 @@ project quota for your subscription.
 ![Solo](subscriptions/solo.png)
 
 If you want to bring in some collaborators you can start a new team, invite them
-to join the team, and then share some of your projects with the team.
+to join the team, and then share some of your projects with the team. It won't cost
+your collaborators anything to contribute to projects that you own.
 
 As a Billing Admin for your Personal team you can upgrade or cancel your subscription
 at any time.
