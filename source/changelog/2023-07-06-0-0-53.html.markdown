@@ -1,0 +1,18 @@
+---
+
+title: 0.0.53
+date: 2023-07-06 20:57 UTC
+tags: 
+
+---
+
+New Features:
+
+* The Team page now shows the number of projects owned by each team and the combined size
+  of all those projects.
+
+Bugs fixed:
+
+* Some Ableton projects were previously "invisible" to Seshy. Now we should see them.
+
+
