@@ -1,0 +1,18 @@
+---
+
+title: 0.0.57
+date: 2023-08-15 20:53 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a mostly invisible bug that was introduced in 0.0.56.
+
+
+
