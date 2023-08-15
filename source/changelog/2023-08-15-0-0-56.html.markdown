@@ -1,0 +1,20 @@
+---
+
+title: 0.0.56
+date: 2023-08-15 19:22 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Fixed a bug where Seshy would show a "Local Project Missing" warning after
+  a new version had been saved.
+* Improved warning banners about subscirptions and quotas.
+
+
+
