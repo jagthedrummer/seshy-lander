@@ -1,0 +1,18 @@
+---
+
+title: 0.0.58
+date: 2023-09-29 19:08 UTC
+tags: 
+
+---
+
+New Features:
+
+* Projects can now be browsed on the web at: <https://studio.seshy.me/>
+
+Bugs fixed:
+
+* None
+
+
+
