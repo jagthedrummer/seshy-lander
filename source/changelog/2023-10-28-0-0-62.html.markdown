@@ -1,0 +1,17 @@
+---
+
+title: 0.0.62
+date: 2023-10-28 22:55 UTC
+tags: 
+
+---
+
+New Features:
+
+* More polish for small screens.
+
+Bugs fixed:
+
+* None
+
+

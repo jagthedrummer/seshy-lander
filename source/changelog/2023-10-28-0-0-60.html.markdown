@@ -1,0 +1,17 @@
+---
+
+title: 0.0.60
+date: 2023-10-28 22:52 UTC
+tags: 
+
+---
+
+New Features:
+
+* Added a waveform visualization for bounces.
+
+Bugs fixed:
+
+* None
+
+
