@@ -1,0 +1,17 @@
+---
+
+title: 0.0.63
+date: 2023-10-29 19:49 UTC
+tags: 
+
+---
+
+New Features:
+
+* Some visual polish, especially for dark mode.
+
+Bugs fixed:
+
+* None
+
+
