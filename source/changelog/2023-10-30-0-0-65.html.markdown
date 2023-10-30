@@ -1,0 +1,15 @@
+---
+
+title: 0.0.65
+date: 2023-10-30 20:14 UTC
+tags: 
+
+---
+
+New Features:
+
+* Add metadata to playing audio so that we get something showing up in the system-wide media display.
+
+Bugs fixed:
+
+* None
