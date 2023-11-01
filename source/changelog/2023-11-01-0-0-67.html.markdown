@@ -1,0 +1,15 @@
+---
+
+title: 0.0.67
+date: 2023-11-01 19:39 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Bug fix for the bounce player on mobile Safari.
