@@ -1,0 +1,15 @@
+---
+
+title: 0.0.71
+date: 2023-11-10 21:00 UTC
+tags: 
+
+---
+
+New Features:
+
+* Some visual polish for the global bounce player.
+
+Bugs fixed:
+
+* None

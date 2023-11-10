@@ -1,0 +1,19 @@
+---
+
+title: 0.0.72
+date: 2023-11-10 21:00 UTC
+tags: 
+
+---
+
+New Features:
+
+* BETA - A rough prototype of commenting on bounces. Not fully functional, and only available to beta testers.
+* Some animations for state changes like menus opening, or toggling of the description editor.
+
+Bugs fixed:
+
+* On mobile the main menu will now auto-close when you tap outside of it.
+* On desktop the user menu will now auto-close when you click outside of it.
+
+
