@@ -1,0 +1,18 @@
+---
+
+title: 0.0.73
+date: 2023-12-07 19:56 UTC
+tags: 
+
+---
+
+New Features:
+
+* None
+
+Bugs fixed:
+
+* Now we close the user menu when you click outside of it.
+* Fix a problem where sometimes project links don't work.
+
+
