@@ -1,0 +1,19 @@
+---
+
+title: 0.0.75
+date: 2024-01-29 19:47 UTC
+tags: 
+
+---
+
+New Features:
+
+* Added a new Team overview screen.
+* BETA - Activity stream. Only available to beta testers.
+
+Bugs fixed:
+
+* A fix for a bug that was causing sign in problems for some people.
+* Some polish for small screens.
+
+
