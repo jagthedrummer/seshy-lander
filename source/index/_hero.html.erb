@@ -2,41 +2,53 @@
 <div class="container mx-auto pb-12 no-h-screen">
   <div class="text-center px-3 lg:px-0">
     <h1
-        class="my-4 text-2xl md:text-3xl lg:text-5xl text-gray-200 font-light leading-tight"
+        class="my-4 text-2xl md:text-3xl lg:text-5xl text-gray-200 font-light leading-tight text-balance"
         >
-        Collaborate with other musicians using <br/> <b>Logic Pro X</b>, <b>Ableton Live</b>, <b>Avid Pro Tools</b>  &amp;  <b>Bitwig Studio</b>
+        Cross-platform collaboration tools for music makers.
     </h1>
+
     <p
-        class="leading-normal text-gray-300 text-base md:text-xl lg:text-2xl mb-8"
+        class="leading-normal text-gray-300 text-base md:text-xl lg:text-2xl mb-8 text-balance"
         >
-        Easy sharing with collaborators and <br/>automatic backup of every change
+        Easy project sharing with collaborators and automatic backup of every change
     </p>
 
-    <div class="justify-center flex flex-wrap no-prose">
-      <%= image_tag 'logic-pro-x.png', class: 'h-24 w-24 m-6', alt: "Logic Pro X" %>
-      <%= image_tag 'ableton-live.png', class: 'h-24 w-24 m-6 rounded-2xl', alt: "Ableton Live" %>
-      <%= image_tag 'avid-pro-tools.png', class: 'h-24 w-24 m-6 rounded-2xl', alt: "Avid Pro Tools" %>
-      <%= image_tag 'bitwig-studio.png', class: 'h-24 w-24 m-6 rounded-2xl', alt: "Bitwig Studio" %>
+      <p
+        class="leading-normal text-gray-300 text-base md:text-xl lg:text-2xl mb-8"
+        >
+        Works with:
+    </p>
+
+    <div class="justify-center flex flex-wrap gap-8 text-gray-300 text-base md:text-md lg:text-md">
+      <div class="flex-col flex items-center">
+        Logic Pro X <br/>
+        <%= image_tag 'logic-pro-x.png', class: 'h-24 w-24 mt-2', alt: "Logic Pro X" %>
+      </div>
+      <div class="flex-col flex items-center">
+        Ableton Live<br/>
+        <%= image_tag 'ableton-live.png', class: 'h-24 w-24 rounded-2xl mt-2', alt: "Ableton Live" %>
+      </div>
+      <div class="flex-col flex items-center">
+        Avid Pro Tools<br/>
+        <%= image_tag 'avid-pro-tools.png', class: 'h-24 w-24 rounded-2xl mt-2', alt: "Avid Pro Tools" %>
+      </div>
+      <div class="flex-col flex items-center">
+        Bitwig Studio<br/>
+        <%= image_tag 'bitwig-studio.png', class: 'h-24 w-24 rounded-2xl mt-2', alt: "Bitwig Studio" %>
+      </div>
     </div>
 
-
-
-      <!--
-    <button
-        class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
+    <p
+        class="leading-normal text-gray-300 text-base md:text-xl lg:text-2xl mt-8 text-balance"
         >
-        Sign Up
-    </button>
-    <a
-        href="#"
-        class="inline-block mx-auto lg:mx-0 hover:underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-8"
-        >View Additional Action</a
-      >
-      -->
+        MacOS &amp; Windows
+    </p>
+
+
   </div>
 
 
-            <%= image_tag 'hero-screenshot.png', class: 'w-max mx-auto border-solid rounded' %>
+            <%#= image_tag 'hero-screenshot.png', class: 'w-max mx-auto border-solid rounded' %>
 
   <!--
             <div class="flex items-center w-full mx-auto content-end">
