@@ -14,7 +14,7 @@
     <!-- Font Awesome if you need it
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     -->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!--Replace with your tailwind.css once created-->
     <link
       href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"
@@ -160,41 +160,45 @@
 <div class="container mx-auto pb-12 no-h-screen">
   <div class="text-center px-3 lg:px-0">
     <h1
-        class="my-4 text-2xl md:text-3xl lg:text-5xl text-gray-200 font-light leading-tight"
+        class="my-4 text-2xl md:text-3xl lg:text-5xl text-gray-200 font-light leading-tight text-balance"
         >
-        Collaborate with other musicians using <br/> <b>Logic Pro X</b>, <b>Ableton Live</b>, <b>Avid Pro Tools</b>  &amp;  <b>Bitwig Studio</b>
+        Cross-platform collaboration tools for music makers.
     </h1>
+
     <p
-        class="leading-normal text-gray-300 text-base md:text-xl lg:text-2xl mb-8"
+        class="leading-normal text-gray-300 text-base md:text-xl lg:text-2xl mb-8 text-balance"
         >
-        Easy sharing with collaborators and <br/>automatic backup of every change
+        Easy project sharing with collaborators and automatic backup of every change
     </p>
 
-    <div class="justify-center flex flex-wrap no-prose">
-      <img src="/images/logic-pro-x.png" class="h-24 w-24 m-6" alt="Logic Pro X" />
-      <img src="/images/ableton-live.png" class="h-24 w-24 m-6 rounded-2xl" alt="Ableton Live" />
-      <img src="/images/avid-pro-tools.png" class="h-24 w-24 m-6 rounded-2xl" alt="Avid Pro Tools" />
-      <img src="/images/bitwig-studio.png" class="h-24 w-24 m-6 rounded-2xl" alt="Bitwig Studio" />
+      <p
+        class="leading-normal text-gray-300 text-base md:text-xl lg:text-2xl mb-8"
+        >
+        Works on MacOS &amp; Windows with:
+    </p>
+
+    <div class="justify-center flex flex-wrap gap-8 text-gray-300 text-base md:text-md lg:text-md">
+      <div class="flex-col flex items-center">
+        Logic Pro X <br/>
+        <img src="/images/logic-pro-x.png" class="h-24 w-24 mt-2" alt="Logic Pro X" />
+      </div>
+      <div class="flex-col flex items-center">
+        Ableton Live<br/>
+        <img src="/images/ableton-live.png" class="h-24 w-24 rounded-2xl mt-2" alt="Ableton Live" />
+      </div>
+      <div class="flex-col flex items-center">
+        Avid Pro Tools<br/>
+        <img src="/images/avid-pro-tools.png" class="h-24 w-24 rounded-2xl mt-2" alt="Avid Pro Tools" />
+      </div>
+      <div class="flex-col flex items-center">
+        Bitwig Studio<br/>
+        <img src="/images/bitwig-studio.png" class="h-24 w-24 rounded-2xl mt-2" alt="Bitwig Studio" />
+      </div>
     </div>
 
-
-
-      <!--
-    <button
-        class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
-        >
-        Sign Up
-    </button>
-    <a
-        href="#"
-        class="inline-block mx-auto lg:mx-0 hover:underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-8"
-        >View Additional Action</a
-      >
-      -->
   </div>
 
 
-            <img src="/images/hero-screenshot.png" class="w-max mx-auto border-solid rounded" alt="" />
 
   <!--
             <div class="flex items-center w-full mx-auto content-end">
@@ -209,18 +213,6 @@
 
         <section class="bg-gray-100 border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
-        <!--
-        <h2
-          class="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800"
-        >
-          Benefits
-        </h2>
-        <div class="w-full mb-4">
-          <div
-            class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-          ></div>
-        </div>
-        -->
 
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
@@ -235,13 +227,43 @@
             </p>
           </div>
           <div class="w-full sm:w-1/2 p-6">
-            <img src="/images/automatic-uploads.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
+            <img src="/images/home-features/automatic-uploads.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
           </div>
         </div>
 
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
           <div class="w-full sm:w-1/2 p-6 mt-6">
-            <img src="/images/team-based.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
+            <img src="/images/home-features/bounces.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
+          </div>
+          <div class="w-full sm:w-1/2 p-6 mt-6">
+            <div class="align-middle">
+              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                Share bounces
+              </h3>
+              <p class="text-gray-600 mb-8">
+                Upload bounces of your projects so it's easy to listen to them on the go.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div class="w-5/6 sm:w-1/2 p-6">
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              Capture feedback and ideas (beta)
+            </h3>
+            <p class="text-gray-600 mb-8">
+              Use comments to share feedback with your collaborators. Create issues to capture ideas and tasks that you want to be sure not to forget.
+            </p>
+          </div>
+          <div class="w-full sm:w-1/2 p-6">
+            <img src="/images/home-features/comments.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
+          </div>
+        </div>
+
+        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+          <div class="w-full sm:w-1/2 p-6 mt-6">
+            <img src="/images/home-features/team-based.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
           </div>
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
@@ -268,13 +290,13 @@
             </p>
           </div>
           <div class="w-full sm:w-1/2 p-6">
-            <img src="/images/versions.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
+            <img src="/images/home-features/versions.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
           </div>
         </div>
 
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
           <div class="w-full sm:w-1/2 p-6 mt-6">
-            <img src="/images/add-description.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
+            <img src="/images/home-features/add-description.png" class="w-full mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
           </div>
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
@@ -287,6 +309,32 @@
               </p>
             </div>
           </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div class="w-5/6 sm:w-1/2 p-6">
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              Collaborate from anywhere
+            </h3>
+            <p class="text-gray-600 mb-8">
+              You can't always be in the studio, so Seshy makes it easy to keep up with your projects from anywhere.
+            </p>
+            <p class="text-gray-600 mb-8">
+              Even from your phone.
+            </p>
+            <p class="text-gray-600 mb-8">
+              The web version allows you to listen to bounces, add comments, and create issues.
+            </p>
+            <p class="text-gray-600 mb-8">
+              You'll always be in the loop, even when you're not in the studio.
+            </p>
+          </div>
+          <div class="w-full sm:w-1/2 p-6">
+            <img src="/images/home-features/mobile-friendly.png" class="w-max mx-auto border border-gray-300 border-solid rounded-lg" alt="" />
+          </div>
+        </div>
+
+
       </div>
     </section>
 
