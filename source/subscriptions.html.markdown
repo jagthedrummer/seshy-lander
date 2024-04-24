@@ -5,11 +5,6 @@ layout: markdown
 
 ---
 
-<div class="border border-dashed rounded-lg border-yellow-500 bg-yellow-200 dark:bg-opacity-10 dark:border-yellow-200 dark:border-opacity-70 dark:text-white mb-8 p-3 xl:py-4 xl:px-4 xl:-mx-4">
-  Note: This page is a work in progress and the system described below is aspirational and doesn't fully exist or work as described yet.
-  I'm documenting it ahead of time to gather feedback and to give people a chance to see what to expect soon.
-</div>
-
 # Subscriptions
 
 Subscriptions give you a larger **Storage Pool** which allows you to store more projects in Seshy.
