@@ -183,9 +183,21 @@ What came after that?
 
 What did the process of "adding the finishing touches" look like?
 
+### What didn't happen
+
+What didn't happen, is that Greg didn't start with the background.
+
 ![Partial 1](recording-guide/partial1.png)
 
+He didn't then add some supporting details.
+
 ![Partial 2](recording-guide/partial2.png)
+
+Before finally getting around to working on the primary subject.
+
+![Finished Illustration](recording-guide/finished.png)
+
+
 
 ![Sketch 1](recording-guide/sketch1.png)
 
