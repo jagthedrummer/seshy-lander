@@ -143,9 +143,49 @@ project".
 
 ## Illustration Sequences
 
+My friend, [Greg Tatum](https://gregtatum.com), is a talented artist in a number of mediums
+and recently he posted a behind-the-scenes look at one of his illustrations. I think it can
+serve as a great visual representation for writing and recording music.
+
+Here's the finished illustration:
+
 ![Finished Illustration](recording-guide/finished.png)
 
+When Greg posted the finished product he said this:
+
+> I had a very distinct dream the other night about islands floating on a
+> planet made of air. The islands were ancient machines with giant gears in
+> them. I decided to do a digital painting of it. I'm still learning colors,
+> but #procreate is starting to feel a bit more natural to use. I dumped a lot
+> of hours into the detail work here.
+
+Often when we start working on music we can have a reasonably clear idea about
+what we're hoping to achieve. In thse cases it's similar to having the kind of
+artistic inspiration that Greg had from his dream. Greg could probably "see" this
+scene in his "minds eye", and sometimes we might be able to "hear" a musical idea
+in our "minds ear".
+
+But how do we get from this?
+
 ![Blank Page](recording-guide/blank.png)
+
+To this?
+
+![Finished Illustration](recording-guide/finished.png)
+
+Take a minute and think about how you'd imagine the process happening.
+
+Think about the order in which things were added.
+
+What was drawn first?
+
+What came after that?
+
+What did the process of "adding the finishing touches" look like?
+
+![Partial 1](recording-guide/partial1.png)
+
+![Partial 2](recording-guide/partial2.png)
 
 ![Sketch 1](recording-guide/sketch1.png)
 
@@ -154,3 +194,21 @@ project".
 ![Sketch 3](recording-guide/sketch3.png)
 
 ![Sketch 4](recording-guide/sketch4.png)
+
+
+![Sketch 5](recording-guide/sketch5.png)
+![Sketch 6](recording-guide/sketch6.png)
+![Sketch 7](recording-guide/sketch7.png)
+![Sketch 8](recording-guide/sketch8.png)
+
+![Sketch 9](recording-guide/sketch9.png)
+![Sketch 10](recording-guide/sketch10.png)
+![Sketch 11](recording-guide/sketch11.png)
+![Sketch 12](recording-guide/sketch12.png)
+![Sketch 13](recording-guide/sketch13.png)
+![Sketch 14](recording-guide/sketch14.png)
+![Sketch 15](recording-guide/sketch15.png)
+![Sketch 16](recording-guide/sketch16.png)
+![Sketch 17](recording-guide/sketch17.png)
+![Sketch 18](recording-guide/sketch18.png)
+![Sketch 19](recording-guide/sketch19.png)
