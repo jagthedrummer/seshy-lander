@@ -119,6 +119,7 @@ project".
 * Capture ideas in whatever form you have them (it's OK to start with a riff or a pad)
 * Involve collaborators early
 * Start with lo-fi sketches and work towards hi-fi
+* Start Producing early, but don't get too attached
 * Early sketches are immagination aids (like a visual aid for your ears) - Don't get discouraged by their lo-fi-ness
 * Find what the song wants to be, but also find what you want it to be
 * If an idea from a collaborator seems uninstersting, think what you could add to make it more interesting
